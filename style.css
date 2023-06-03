@@ -31,7 +31,7 @@ input[type="password"] { /*Input type es el tipo de input que se va a utilizar*/
 input[type="submit"] { /*Input type es el tipo de input que se va a utilizar*/
   background-color: #4CAF50; /*Background color es el color de fondo*/
   color: white; /*Color es el color del texto*/
-  padding: 10px 20px; /*Padding es el espacio que hay entre el borde y el contenido*/
+  /* padding: 15px; Padding es el espacio que hay entre el borde y el contenido */
   border: none; /*Border es el borde del input*/
   border-radius: 4px; /*Border radius es el radio de las esquinas del input*/
   cursor: pointer; /*Cursor pointer hace que el cursor se convierta en una mano*/
@@ -40,4 +40,21 @@ input[type="submit"] { /*Input type es el tipo de input que se va a utilizar*/
 
 input[type="submit"]:hover { /*Input hover es el input cuando el cursor está encima*/
   background-color: #45a049;
+}
+#login-button{
+  background-color: rgb(72, 72, 184);
+  color:white;
+  width: 80px;
+  height: 19px;
+}
+
+
+.h2{
+  font-size: 300%;
+  height: 20px;
+  width: 40px;
+}
+#nose{
+  width: 20%;
+  margin-left:775px;
 }
